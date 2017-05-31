@@ -2,7 +2,8 @@
 /*
  * This is the parent class. Also called the super class
  */
-public class Animal {
+public abstract class Animal {
+	
 	public Animal() {
 		System.out.println("A new animal has been created!");
 	}

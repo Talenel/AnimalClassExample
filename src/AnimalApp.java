@@ -3,9 +3,7 @@ public class AnimalApp {
 
 	public static void main(String[] args) {
 
-		Animal a = new Animal();
-		print(a.eat());
-		print(a.sleep());
+		
 
 		Cat c = new Cat();
 		print(c.eat());
@@ -17,6 +15,12 @@ public class AnimalApp {
 		print(b.eat());
 		print(b.sleep());
 		print(b.fly());
+		
+		SaberToothTiger s= new SaberToothTiger();
+		print(s.eat());
+		print(s.purr());
+		print(s.sleep());
+		
 
 	}
 	private static void print(String s){
